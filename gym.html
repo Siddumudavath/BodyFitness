@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/gym.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--------navbar starts-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-light fw-bold" href="#">BODY <span style="color: red;">FITNESS</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-light" href="#About">About</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-light" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-light" href="#Classes">Classes</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-light" href="#Schedule">Schedule</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-light" href="#Price">Price</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-light" href="#Gallery">Gallery</a>
+                    </li>
+
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-light" href="#Contact us" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Contact us</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Login/Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-----------navbar ends-------->
+
+    <!-----slider start-->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="h-100 w-100" src="assets/images/home.jpg" class="d-block w-100" alt="First Slide">
+                <div class="carousel-caption  d-block ">
+                    <h1 class="wow slideInLeft" data-wow-delay="1s">It's <span>gym</span> time. Let's go</h1>
+                    <h1 class="wow slideInRight" data-wow-delay="1s">We are ready to <span>fit you</span></h1>
+                    <a href="" class="btn  py-md-2 px-md-4 animated slideInRight" style="background-color: red;">Join
+                        Now</a>
+                </div>
+
+            </div>
+            <div class="carousel-item ">
+                <img class="h-100 w-100" src="assets/images/home3.jpg" class="d-block w-100" alt="Second Slide">
+                <div class="carousel-caption  d-block">
+                    <h1 class="wow fadeInUp" data-wow-delay="0.5s">Start your <span>fitness</span> journey today!</h1>
+                    <h1 class="wow fadeInDown" data-wow-delay="1.5s">Achieve your <span>dream body</span> with us!</h1>
+                    <a href="" class="btn  py-md-3 px-md-5 animated slideInRight" style="background-color: red;">Join
+                        Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="h-100 w-100" src="assets/images/home4.jpg" class="d-block w-100" alt="Third Slide">
+                <div class="carousel-caption  d-block">
+                    <h1 class="wow bounceInLeft" data-wow-delay="0.3s">Unlock your <span>strength</span> today!</h1>
+                    <h1 class="wow bounceInRight" data-wow-delay="1.3s">Push your <span>limits</span> with us!</h1>
+                    <br>
+                    <a href="" class="btn  py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!---slider ends------>
+    <!---About start here-->
+    <div class="container" id="About">
+        <div class="row mt-5">
+            <div class="col-12 col-md-4 ">
+                <div class="card" style="width: 22rem;">
+                    <img src="assets/images/people2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body  ">
+                        <h2 class="card-title text-dark text-center mt-3">Best Training</h2>
+                        <p class="card-text text-light mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Aut doloremque facilis quibusdam quas nemo magni nostrum voluptatibus dolores eaque atque
+                            eum, cupiditate quam ipsum dignissimos repellat corrupti placeat mollitia laboriosam sequi
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+                <div class="card" style="width: 22rem;">
+                    <img src="assets/images/people1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-dark">
+                        <h2 class="card-title text-light text-center mt-3">Build Perfect Body</h2>
+                        <p class="card-text text-light mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Aut doloremque facilis quibusdam quas nemo magni nostrum voluptatibus dolores eaque atque
+                            eum, cupiditate quam ipsum dignissimos repellat corrupti placeat mollitia laboriosam sequi
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+                <div class="card" style="width: 22rem;">
+                    <img src="assets/images/consuling.jpg" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h2 class="card-title text-center text-dark mt-3">Free Consultation</h2>
+                        <p class="card-text text-light mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Aut doloremque facilis quibusdam quas nemo magni nostrum voluptatibus dolores eaque atque
+                            eum, cupiditate quam ipsum dignissimos repellat corrupti placeat mollitia laboriosam sequi
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----about end here-->
+    <!----------Services start------------>
+    <div class="container Services-container mt-5" id="Services">
+        <div class="row services">
+            <div class="col-md-6 wow mt-5 slideInLeft">
+                <h2 class="text-dark">Services</h2><br>
+                <p class="pl-5 text-light">Our gym offers a comprehensive range of services designed to cater to all
+                    fitnesslevels. From state-of-the-art equipment and personalized training sessions to group fitness
+                    classes like yoga,Pilates, and HIIT, we provide everything you need to achieve your fitness goals.
+                    Our certifiedtrainers are dedicated to creating customized workout plans, while our modern
+                    facilities includecardio zones, free weights, and functional training areas.
+                    We also offer nutrition counseling and wellness programs to support a holistic approach to
+                    fitness.
+                </p>
+                <a href="" class="btn bg-dark text-light" style="margin-top: 10px;
+                color: white;font-size: 20px;background-color: red;border-radius: 10px;">Start Now</a>
+            </div>
+            <div class="col-md-6 wow mt-5 slideInLeft">
+                <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Strength Training Equipment
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-light">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias quisquam id tenetur omnis nesciunt. Cupiditate amet eius vero
+                                reprehenderit adipisci voluptatibus a velit ad aperiam, fuga praesentium, exercitationem
+                                corrupti facilis.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Personal Training
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-light">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias quisquam id tenetur omnis nesciunt. Cupiditate amet eius vero
+                                reprehenderit adipisci voluptatibus a velit ad aperiam, fuga praesentium, exercitationem
+                                corrupti facilis.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Fitness Classes Available?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-light">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias quisquam id tenetur omnis nesciunt. Cupiditate amet eius vero
+                                reprehenderit adipisci voluptatibus a velit ad aperiam, fuga praesentium, exercitationem
+                                corrupti facilis.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Nutritional Counseling
+
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-light">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias quisquam id tenetur omnis nesciunt. Cupiditate amet eius vero
+                                reprehenderit adipisci voluptatibus a velit ad aperiam, fuga praesentium, exercitationem
+                                corrupti facilis.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                Others
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse bg-dark"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-dark text-light">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Alias quisquam id tenetur omnis nesciunt. Cupiditate amet eius vero
+                                reprehenderit adipisci voluptatibus a velit ad aperiam, fuga praesentium, exercitationem
+                                corrupti facilis.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------Services ends-->
+    <!--Classes started-------->
+    <div class="container" id="Classes">
+        <div class="row">
+            <!-- Text Section -->
+            <div class="col-lg-6 col-md-12">
+                <div class="box text wow slideInRight">
+                    <h2 class="mt-5">Our Classes</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.
+                        <br><br>It has survived not only five centuries.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolore recusandae voluptas iusto
+                        atque aperiam cumque laboriosam dignissimos sint enim!
+                    </p>
+                    <!-- Class Items Section -->
+                    <div class="row class-item">
+                        <!-- Class Item 1 -->
+                        <div class="col-md-6 mb-4 wow bounceInUp">
+                            <div class="card h-100">
+                                <div class="item-img position-relative">
+                                    <img src="assets/images/gym2.jpg" alt="classes" class="card-img-top img-fluid" />
+                                    <div class="price position-absolute top-0 start-0  text-white p-2"
+                                        style="background-color: red;font-size: 25px">
+                                        $99
+                                    </div>
+                                </div>
+                                <div class="card-body w-100">
+                                    <h4 class="card-title text-dark fw-bold ">Stretching Training</h4>
+                                    <p class="card-text text-light">Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry.</p>
+                                    <a href="#" class="btn btn-dark"
+                                        style="margin-top: 10px;color: white;font-size: 20px;background-color: black;border-radius: 10px;">Get
+                                        Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Class Item 2 -->
+                        <div class="col-md-6 mb-4 wow bounceInUp">
+                            <div class="card h-100">
+                                <div class="item-img position-relative">
+                                    <img src="assets/images/gym1.jpg" alt="classes" class="card-img-top img-fluid" />
+                                    <div class="price position-absolute top-0 start-0  text-white p-2"
+                                        style="background-color: red;font-size: 25px">
+                                        $99
+                                    </div>
+                                    <div class="card-body w-100">
+                                        <h4 class="card-title text-dark fw-bold">Stretching Training</h4>
+                                        <p class="card-text text-light">Lorem Ipsum is simply dummy text of the printing
+                                            and
+                                            typesetting industry.</p>
+                                        <a href="#" class="btn btn-dark"
+                                            style="margin-top: 10px;color: white;font-size: 20px;background-color: black;border-radius: 10px;">Get
+                                            Details
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Section -->
+            <div class="col-lg-6 col-md-12">
+                <div class="box img wow slideInLeft mt-5">
+                    <img src="assets/images/Mahesh Babu Outfits.jpg" alt="classes" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-dark h-75">
+        <div class="row mt-5">
+            <div class="col-md-6 wow mt-5 slideInLeft">
+                <h1 class="text-danger">Start your workout today</h1>
+                <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam tempora fugit
+                    voluptatem, nisi assumenda, earum cupiditate repellat, dolores laboriosam laudantium debitis odio
+                    nihil! Cum, laudantium voluptate officiis esse voluptas cumque?
+                </p>
+                <a href="" class="btn text-light"
+                    style="margin-top: 10px;color: white;font-size: 20px;background-color: red;border-radius: 10px;">Start Now</a>
+            </div>
+            <div class="col-md-6 wow mt-5 slideInLeft">
+
+                <img src="assets/images/people2.jpg" alt="" class="h-100 w-75">
+            </div>
+        </div>
+    </div>
+
+    <!---classes end-->
+
+    <!-----schedule starts-->
+    <div class="container py-5 mt-5" id="Schedule">
+        <div class="row">
+            <div class="col-md-6 mt-5">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td class="fw-bold" style="background-color: red;">Monday</td>
+                            <td><strong>9:00 AM</strong></td>
+                            <td>Body Building <br /> 9:00 to 10:00 AM</td>
+                            <td>Room No: 210</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold  bg-dark text-light">Tuesday</td>
+                            <td><strong>9:00 AM</strong></td>
+                            <td>Body Building <br /> 9:00 to 10:00 AM</td>
+                            <td>Room No: 210</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold" style="background-color: red;">Wednesday</td>
+                            <td><strong>9:00 AM</strong></td>
+                            <td>Body Building <br /> 9:00 to 10:00 AM</td>
+                            <td>Room No: 210</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold  bg-dark text-light">Thursday</td>
+                            <td><strong>9:00 AM</strong></td>
+                            <td>Body Building <br /> 9:00 to 10:00 AM</td>
+                            <td>Room No: 210</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold " style="background-color: red;">Friday</td>
+                            <td><strong>9:00 AM</strong></td>
+                            <td>Body Building <br /> 9:00 to 10:00 AM</td>
+                            <td>Room No: 210</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold bg-dark text-light">Saturday</td>
+                            <td><strong>9:00 AM</strong></td>
+                            <td>Body Building <br /> 9:00 to 10:00 AM</td>
+                            <td>Room No: 210</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="p-4 shadow-sm bg-light rounded">
+                    <h2>Classes Schedule</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                    </p>
+                    <img src="assets/images/running.jpg" class="img-fluid h-75" alt="schedule">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!------schedule ends---------->
+    <!----------price start-->
+    <div class="container" id="Price">
+        <h2 class="h2-responsive fw-bold text-center my-2">Packages We Provide</h2>
+        <p class="text-center w-responsive mx-auto mb-1">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Eum architecto enim sapiente nobis veniam accusantium tempore ea doloremque dolor repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Eum architecto enim sapiente nobis veniam accusantium tempore ea doloremque dolor repellendus.
+        </p>
+    </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-4 col-12 ">
+                <div class="card" style="width: 22rem;">
+                    <img src="assets/images/package3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body  ">
+                        <div class="amount">
+                            <div class="sellingPrice btn bg-dark text-light" style=" font-size: 20px;border-radius: 10px;">₹ 3,500</div>
+                            <div class="markupPrice btn bg-dark text-light" style=" font-size: 20px;border-radius: 10px;">₹ 10,000</div>
+                            <div class="discount btn bg-dark text-light" style=" font-size: 20px;border-radius: 10px;">65% OFF</div>
+                        </div>
+                        <h5 class="card-title text-light text-center mt-3"> Body Fitness Training</h5>
+                        <p class="card-text text-light mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                            Aut doloremque facilis quibusdam quas nemo magni nostrum voluptatibus dolores eaque
+                            atque
+                        </p>
+
+                        <center><a href="#" class="btn btn-dark mt-3" style="margin-top: 10px;
+                            color: white;
+                            font-size: 20px;
+                            border-radius: 10px;background-color: black;">Join Now</a></center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+                <div class="card" style="width: 22rem;">
+                    <img src="assets/images/package2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body bg-dark">
+                        <div class="amount">
+                            <div class="sellingPrice btn  text-light" style="background-color: red; font-size: 20px;border-radius: 10px;">₹
+                                3,500</div>
+                            <div class="markupPrice btn  text-light" style="background-color: red; font-size: 20px;border-radius: 10px;">₹
+                                10,000</div>
+                            <div class="discount btn  text-light" style="background-color: red; font-size: 20px;border-radius: 10px;">65%
+                                OFF</div>
+                        </div>
+                        <h5 class="card-title text-light text-center mt-3"> Body Fitness Training</h5>
+                        <p class="card-text text-light mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                            Aut doloremque facilis quibusdam quas nemo magni nostrum voluptatibus dolores eaque
+                            atque
+                        </p>
+                        <center><a href="#" class="btn mt-3" style="margin-top: 10px;
+                            color: white;
+                            font-size: 20px;border-radius: 10px;
+                            background-color: red;">Join Now</a></center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+                <div class="card" style="width: 22rem;">
+                    <img src="assets/images/package.jpg" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <div class="amount">
+                            <div class="sellingPrice btn bg-dark text-light" style=" font-size: 20px;border-radius: 10px;">₹ 3,500</div>
+                            <div class="markupPrice btn bg-dark text-light" style=" font-size: 20px;border-radius: 10px;">₹ 10,000</div>
+                            <div class="discount btn bg-dark text-light" style=" font-size: 20px;border-radius: 10px;">65% OFF</div>
+                        </div>
+                        <h5 class="card-title text-light text-center mt-3"> Body Fitness Training</h5>
+                        <p class="card-text text-light mt-1">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                            Aut doloremque facilis quibusdam quas nemo magni nostrum voluptatibus dolores eaque
+                            atque
+                        </p>
+                        <center><a href="#" class="btn btn-dark mt-3" style="margin-top: 10px;
+                            color: white;
+                            font-size: 20px;border-radius: 10px;
+                            background-color: black;">Join Now</a></center>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------price ends-->
+    <!---gallery starts-->
+
+    <div class="container" id="Gallery">
+        <h2 class="text-center mt-5">Our Gallery</h2>
+        <div class="row mt-5">
+            <div class="col-3">
+                <div class="my-2 p-1">
+                    <img src="assets/images/gym2.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="my-2 p-1">
+                    <img src="assets/images/gym1.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="my-2 p-1 ">
+                    <img src="assets/images/Mahesh Babu Outfits.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="my-2 p-1">
+                    <img src="assets/images/home3.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="my-2 p-1">
+                    <img src="assets/images/package2.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="my-2 p-1">
+                    <img src="assets/images/running.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="my-2 p-1">
+                    <img src="assets/images/package2.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="my-2 p-1">
+                    <img src="assets/images/people3.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="my-2 p-1">
+                    <img src="assets/images/home4.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="my-2 p-1">
+                    <img src="assets/images/gym2.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="my-2 p-1">
+                    <img src="assets/images/home3.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="my-2 p-1">
+                    <img src="assets/images/people1.jpg" alt="" height="300px" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---gallery ends-->
+    <!--footer start-->
+    <div class="container-fluid bg-dark mt-5" id="Contact us">
+        <div class="row">
+            <div class="col-md-6 wow slideInLeft">
+                <div class="form-box mt-5 ms-5 w-75">
+                    <form class="bg-dark mt-5">
+                        <div class="mb-3">
+                            <input type="text" class="form-control bg-dark text-light" placeholder="Enter Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control  bg-dark text-light" placeholder="Enter Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control  bg-dark text-light" placeholder="Enter Mobile">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control  bg-dark text-light" placeholder="Enter Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn text-light" style="background-color: red;" id="#About">Send
+                            Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-6 wow slideInRight">
+                <h2 class=" mt-5" style="color: red;">Get Connected with Gym</h2>
+                <p class="title-p text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <div class="info">
+                    <ul class="list-unstyled text-light">
+                        <li><span class="fa fa-map-marker text-danger"></span>Amangal, police station back side
+                            pincode:50059</li><br>
+                        <li><span class="fa fa-phone text-danger"></span> 91 9848223311</li> <br>
+                        <li><span class="fa fa-envelope text-danger"></span> info@gym.com</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <a href="" class="me-2 ms-2"><span class="fa fa-facebook text-danger"></span></a>
+                    <a href="" class="me-2  ms-2"><span class="fa fa-linkedin text-danger"></span></a>
+                    <a href="" class="me-2  ms-2"><span class="fa fa-skype text-danger"></span></a>
+                    <a href="" class="me-2  ms-2"><span class="fa fa-youtube-play text-danger"></span></a>
+                </div>
+                <div class="copy mt-3 text-light">
+                    Powered by &copy; The WebShala
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer end-->
+    <!---modal starts-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" id="Contact us">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-6 image1">
+
+                    </div>
+                    <div class="col-md-6 " style="background-color: black;">
+                        <div class="text-end">
+                            <button type="button" class="btn-close pe-3 pt-3" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <form class="row g-3 p-5 coloring">
+                            <h2 class="text-center">lets talk</h2>
+                            <div class="col-md-12">
+                                <label for="inputEmail4" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputPassword4" class="form-label">mobile</label>
+                                <input type="tel" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputPassword4" class="form-label">Age</label>
+                                <input type="tel" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="inputPassword4" class="form-label">DateOfBirth</label>
+                                <input type="tel" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn text-light" style="background-color: black;">Sign
+                                    in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---modal ends-->
+    <script src="assets/javascript/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
